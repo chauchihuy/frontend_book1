@@ -1,0 +1,23 @@
+{
+  "routes": [
+    "/",
+    "/admin",
+    "/admin/categories",
+    "/admin/categories/insert",
+    "/admin/comments",
+    "/admin/orders",
+    "/admin/products",
+    "/admin/products/insert",
+    "/admin/users",
+    "/login",
+    "/loves",
+    "/order-user",
+    "/order-user-detail",
+    "/orders",
+    "/payment-failure",
+    "/payment-form",
+    "/payment-success",
+    "/register",
+    "/user-profile"
+  ]
+}

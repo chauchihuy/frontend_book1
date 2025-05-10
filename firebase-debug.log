@@ -1,0 +1,92 @@
+[debug] [2025-05-09T16:00:32.260Z] ----------------------------------------------------------------------
+[debug] [2025-05-09T16:00:32.262Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Chi Huy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-09T16:00:32.262Z] CLI Version:   14.3.0
+[debug] [2025-05-09T16:00:32.263Z] Platform:      win32
+[debug] [2025-05-09T16:00:32.263Z] Node Version:  v22.14.0
+[debug] [2025-05-09T16:00:32.263Z] Time:          Fri May 09 2025 23:00:32 GMT+0700 (Giờ Đông Dương)
+[debug] [2025-05-09T16:00:32.263Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-09T16:00:32.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-09T16:00:32.391Z] > authorizing via signed-in user (chauchihuydz27052004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Thư mục mới\frontend\shopapp-angular
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-09T16:00:40.878Z] Using project from CLI flag: book-online-b3628
+[debug] [2025-05-09T16:00:40.881Z] Checked if tokens are valid: true, expires at: 1746810012015
+[debug] [2025-05-09T16:00:40.881Z] Checked if tokens are valid: true, expires at: 1746810012015
+[debug] [2025-05-09T16:00:40.886Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/book-online-b3628 [none]
+[debug] [2025-05-09T16:00:41.468Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/book-online-b3628 200
+[debug] [2025-05-09T16:00:41.468Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/book-online-b3628 {"projectId":"book-online-b3628","projectNumber":"823232293360","displayName":"book-online","name":"projects/book-online-b3628","resources":{"hostingSite":"book-online-b3628"},"state":"ACTIVE","etag":"1_f2dca6a8-fedf-42ae-91f0-924b6b05e5c7"}
+[info] i  Using project book-online-b3628 (book-online) 
+[info] 
+=== Hosting Setup
+[debug] [2025-05-09T16:00:41.473Z] Checked if tokens are valid: true, expires at: 1746810012015
+[debug] [2025-05-09T16:00:41.473Z] Checked if tokens are valid: true, expires at: 1746810012015
+[debug] [2025-05-09T16:00:41.473Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/book-online-b3628 [none]
+[debug] [2025-05-09T16:00:42.073Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/book-online-b3628 200
+[debug] [2025-05-09T16:00:42.074Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/book-online-b3628 {"projectId":"book-online-b3628","projectNumber":"823232293360","displayName":"book-online","name":"projects/book-online-b3628","resources":{"hostingSite":"book-online-b3628"},"state":"ACTIVE","etag":"1_f2dca6a8-fedf-42ae-91f0-924b6b05e5c7"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-05-09T16:00:47.726Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-05-09T16:00:47.922Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-05-09T16:00:47.922Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.7.1","browserURL":"https://www.gstatic.com/firebasejs/11.7.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.7.1/firebase.tgz"},"live":{"version":"11.7","browserURL":"https://www.gstatic.com/firebasejs/live/11.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.7.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.7.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.7.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.7.1/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.7.1/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.7.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.7.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.7.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.7.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.7.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.7.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.7.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.7.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.7.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.7.1/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.7.1/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.7.1/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.7.1/firebase-firestore.memory.js"}}
+[info] i  public/index.html is unchanged 
+[info] 
+[info] i  Detected a .git folder at D:\Thư mục mới\frontend\shopapp-angular 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=703916417&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-05-09T16:00:48.543Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-05-09T16:00:48.543Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-05-09T16:00:48.952Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-05-09T16:00:48.952Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-05-09T16:00:48.955Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-05-09T16:00:49.380Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-05-09T16:00:49.380Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"chauchihuy","id":120136224,"node_id":"U_kgDOBykiIA","avatar_url":"https://avatars.githubusercontent.com/u/120136224?v=4","gravatar_id":"","url":"https://api.github.com/users/chauchihuy","html_url":"https://github.com/chauchihuy","followers_url":"https://api.github.com/users/chauchihuy/followers","following_url":"https://api.github.com/users/chauchihuy/following{/other_user}","gists_url":"https://api.github.com/users/chauchihuy/gists{/gist_id}","starred_url":"https://api.github.com/users/chauchihuy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chauchihuy/subscriptions","organizations_url":"https://api.github.com/users/chauchihuy/orgs","repos_url":"https://api.github.com/users/chauchihuy/repos","events_url":"https://api.github.com/users/chauchihuy/events{/privacy}","received_events_url":"https://api.github.com/users/chauchihuy/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Châu Chí Huy","company":null,"blog":"","location":"TP Quảng Ngãi","email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":3,"public_gists":0,"followers":0,"following":0,"created_at":"2022-12-08T20:17:10Z","updated_at":"2025-05-09T13:04:23Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":50955,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as chauchihuy 
+[info] 
+[debug] [2025-05-09T16:00:58.177Z] >>> [apiv2][query] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key type=owner
+[debug] [2025-05-09T16:00:58.549Z] <<< [apiv2][status] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key 404
+[debug] [2025-05-09T16:00:58.549Z] <<< [apiv2][body] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-05-09T16:01:24.494Z] >>> [apiv2][query] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key type=owner
+[debug] [2025-05-09T16:01:24.831Z] <<< [apiv2][status] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key 401
+[debug] [2025-05-09T16:01:24.831Z] <<< [apiv2][body] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2025-05-09T16:01:36.624Z] >>> [apiv2][query] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key type=owner
+[debug] [2025-05-09T16:01:36.976Z] <<< [apiv2][status] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key 401
+[debug] [2025-05-09T16:01:36.976Z] <<< [apiv2][body] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+[debug] [2025-05-09T16:01:38.802Z] >>> [apiv2][query] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key type=owner
+[debug] [2025-05-09T16:01:39.071Z] <<< [apiv2][status] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key 401
+[debug] [2025-05-09T16:01:39.071Z] <<< [apiv2][body] GET https://api.github.com/repos/frontend_book/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
