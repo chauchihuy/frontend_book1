@@ -106,6 +106,14 @@
                     <div class="divider-nospace"></div>
                 </div>
                 <div class="form-group">
+                    <label for="role">Quyền</label>
+                    <select class="form-control" [(ngModel)]="roleId" name="roleId" id="role" required>
+                        <option [value]="1">User</option>
+                        <option [value]="2">Admin</option>
+                    </select>
+                    <div class="divider-nospace"></div>
+                </div>
+                <div class="form-group">
                     <div class="form-check checkbox-text">
                         <span style="display: flex;">
                             <input type="checkbox" 
