@@ -30,6 +30,7 @@ export class RegisterComponent {
   isAccepted: boolean;
   dateOfBirth: Date;
   showPassword: boolean = false;
+  roleId: number;
 
   constructor(private router: Router, private userService: UserService) { // hàm khởi tạo, điều hướng và làm việc với các tác vụ liên quan
     debugger
@@ -42,6 +43,7 @@ export class RegisterComponent {
     this.isAccepted = true;
     this.dateOfBirth = new Date();
     this.dateOfBirth.setFullYear(this.dateOfBirth.getFullYear() - 18);
+    this.roleId = 1; // Mặc định là User
   }
   //Ghi lại giá trị của phoneNumber mỗi khi người dùng nhập liệu
   onPhoneNumberChange() {
@@ -77,7 +79,7 @@ export class RegisterComponent {
       "date_of_birth": this.dateOfBirth,
       "facebook_account_id": 0,
       "google_account_id": 0,
-      "role_id": 1
+      "role_id": this.roleId
     }
 
     //gọi đến phương thức đăng ký của UserService và gửi registerDTO đến backend.
